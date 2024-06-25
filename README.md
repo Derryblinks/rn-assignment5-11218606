@@ -20,3 +20,5 @@ The TabNavigation.js component defines the structure of the tab navigation where
 ![Screenshot of SettingScreen](Screenshots/Screen4.png) 
 ![Screenshot of SettingScreen](Screenshots/Screen5.png)
 ![Screenshot of SettingScreen](Screenshots/Screen6.png)
+![Settings Screen](Screenshots/Screen7.png)
+![Settings Screen ](<Screenshots/Screen 8.png>)
