@@ -1,10 +1,10 @@
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
-import HomeScreen from '../screens/HomeScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import HomeScreen from './Screens/HomeScreen';
+import SettingsScreen from './Screens/SettingScreen';
 import { Image, StyleSheet } from 'react-native';
-import { ThemeContext } from '../context/ThemeContext';
+import { ThemeContext } from './Theme/ThemeContext';
 import { useContext } from 'react';
 
 const Tab = createBottomTabNavigator();
@@ -19,13 +19,13 @@ const TabNavigator = () => {
           tabBarIcon: ({ focused }) => {
             let iconName;
             if (route.name === 'Home') {
-              iconName = require('../assets/home.png');
+              iconName = require('./assets/images/home.png');
             } else if (route.name === 'My Cards') {
-              iconName = require('../assets/myCards.png');
+              iconName = require('./assets/images/myCards.png');
             } else if (route.name === 'Statistics') {
-              iconName = require('../assets/statictics.png');
+              iconName = require('./assets/images/statictics.png');
             } else if (route.name === 'Settings') {
-              iconName = require('../assets/settings.png');
+              iconName = require('./assets/images/settings.png');
             }
             return <Image source={iconName} style={[styles.icon, { tintColor: isDarkTheme ? '#fff' : '#000' }]} />;
           },

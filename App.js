@@ -1,6 +1,6 @@
 import React from 'react';
-import TabNavigator from './navigation/TabNavigator';
-import { ThemeProvider } from './context/ThemeContext';
+import TabNavigator from './TabNavigator';
+import { ThemeProvider } from './Theme/ThemeContext';
 
 export default function App() {
   return (

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { View, Text, StyleSheet, Switch } from 'react-native';
-import { ThemeContext } from '../context/ThemeContext';
+import { ThemeContext } from '../Theme/ThemeContext';
 
 const SettingsScreen = () => {
   const { isDarkTheme, toggleTheme } = useContext(ThemeContext);
@@ -29,6 +29,13 @@ const SettingsScreen = () => {
     },
     itemText: {
       fontSize: 18,
+      fontFamily:"Poppins",
+      color: isDarkTheme ? '#fff' : '#000',
+    },
+    itemText1: {
+      fontSize: 20,
+      fontWeight: "bold",
+      fontFamily:"Poppins",
       color: isDarkTheme ? '#fff' : '#000',
     },
     themeToggle: {
@@ -59,7 +66,7 @@ const SettingsScreen = () => {
         <Text style={styles.itemText}>Privacy Policy</Text>
       </View>
       <View style={styles.themeToggle}>
-        <Text style={styles.itemText}>Theme</Text>
+        <Text style={styles.itemText1}>Theme</Text>
         <Switch
           trackColor={{ false: '#767577', true: '#81b0ff' }}
           thumbColor={isDarkTheme ? '#f5dd4b' : '#f4f3f4'}
