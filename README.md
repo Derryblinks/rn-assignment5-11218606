@@ -14,4 +14,10 @@ In this component, users can toggle between light and dark mode in the app
 The TabNavigation.js component defines the structure of the tab navigation where users can render the HomeScreen and the Setting Screen 
 
 ## Screenshot of Project
-[Screenshot of HomeScreen](README.md) ![Screenshot of HomeScreen](Screenshots/Screen1.png) ![Screenshot of HomeScreen](Screenshots/Screen2.png) ![Screenshot of HomeScreen](Screenshots/Screen3.png) ![Screenshot of HomeScreen](Screenshots/Screen4.png) ![Screenshot of HomeScreen](Screenshots/Screen5.png) ![Screenshot of HomeScreen](Screenshots/Screen6.png)
+[Screenshot of HomeScreen](README.md) 
+![Screenshot of HomeScreen](Screenshots/Screen1.png) 
+![Screenshot of HomeScreen](Screenshots/Screen2.png) 
+![Screenshot of SettingScreen](Screenshots/Screen3.png) 
+![Screenshot of SettingScreen](Screenshots/Screen4.png) 
+![Screenshot of SettingScreen](Screenshots/Screen5.png)
+![Screenshot of SettingScreen](Screenshots/Screen6.png)
