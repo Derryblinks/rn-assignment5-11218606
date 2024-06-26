@@ -15,7 +15,8 @@ const TabNavigator = () => {
   return (
     <NavigationContainer>
       <Tab.Navigator
-        screenOptions={({ route }) => ({
+        screenOptions={
+          ({ route }) => ({
           tabBarIcon: ({ focused }) => {
             let iconName;
             if (route.name === 'Home') {
@@ -34,8 +35,9 @@ const TabNavigator = () => {
           tabBarStyle: {
             backgroundColor: isDarkTheme ? '#333' : '#fff', 
           },
-          headerShown: false 
-        })}
+          headerShown: false ,
+        })
+      }
       >
         <Tab.Screen name="Home" component={HomeScreen} />
         <Tab.Screen name="My Cards" component={HomeScreen} />
